@@ -11,6 +11,8 @@ import { ExperienciaComponent } from './components/experiencia/experiencia.compo
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,20 +23,24 @@ import { SkillsComponent } from './components/skills/skills.component';
     AcercaDeComponent,
     ExperienciaComponent,
     EducacionComponent,
-    SkillsComponent
+    SkillsComponent,
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
       radius: 90,
-      outerStrokeWidth: 16,
+      outerStrokeWidth: 15,
       innerStrokeWidth: 4,
       outerStrokeColor: "#99a8ff",
       innerStrokeColor: "#ccd4ff",
       animation: true,
       animationDuration: 600,
-      showImage: true
+      showImage: true,
+      backgroundColor: "#3b6796",
+      showBackground: true
     })
   ],
   providers: [],

@@ -12,5 +12,10 @@ div {
 
 .prog {
     margin: 0em;
-    padding: 0em;
+    padding: 0.4em 0em 0.7em 0em;
+}
+
+a {
+    /* text-decoration: none; */
+    color: linen;
 }
