@@ -27,12 +27,14 @@ import { SkillsComponent } from './components/skills/skills.component';
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot({
-      radius: 100,
+      radius: 90,
       outerStrokeWidth: 16,
-      innerStrokeWidth: 8,
-      outerStrokeColor: "#78C000",
-      innerStrokeColor: "#C7E596",
-      animationDuration: 300
+      innerStrokeWidth: 4,
+      outerStrokeColor: "#99a8ff",
+      innerStrokeColor: "#ccd4ff",
+      animation: true,
+      animationDuration: 600,
+      showImage: true
     })
   ],
   providers: [],
